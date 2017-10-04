@@ -1,0 +1,14 @@
+# JavaScript历史
+
+　　1995年，网景公司希望可以在静态的HTML添加一些动态效果，于是由Brendan Eich在两周内设计出了JavaScript语言。虽然语言中含有Java，但它与Java实际上没什么关系。
+
+# ECMAScript与JavaScript
+
+　　由于JavaScript并没有标准，所以网景的JavaScript与微信模仿Javascript开发的JScript之间互不兼容。为了能让JavaScript标准化。几个公司成立了ECMA组织定制了JavaScript语言的标准，称为ECMAScript标准。所以在很多时候JavaScript与EMCAScript就是一回事。
+
+# JavaScript版本
+
+　　JavaScript语言的作者在发明它时肯定也没有想到JavaScript在现今的Web应用中如此的通用，他一定懊恼应该多花一点时间设计好这个语言。正因为当时的设计时间短暂，所以JavaScript有许多缺陷。也是这些缺陷让它在程序员的鄙视链中一直处于末端。
+
+　　制定了ECMAScript标准后，这个标准本身也在一直发展。目前最新的为ECMAScript 2016标准。所以在提到JavaScript版本时指的就是ECMAScript版本。
+
