@@ -61,7 +61,13 @@
 > computer.host; // '192.168.1.101'  
 > computer.memory; // 16
 
+#### 变量
 
+变量使用`var`申请。
+
+> var a;
+>
+> var b = 1;
 
 
 
