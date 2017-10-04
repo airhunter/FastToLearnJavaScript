@@ -30,6 +30,12 @@
 
 在ECMAScript 2015中可以通过\`\`来表示多行文本，类似于Python语言的三个引号的作用。
 
+除了可以使用加号连接字符串，JavaScript还提供一了一种称为模板字符串的字符串连接方法，需要ECMAScript 2015支持。
+
+> var FirstName = 'Smith';  
+> var LastName = 'Wong';  
+> var HelloMessage = 'Hello,${FirstName} ${LastName} , Nice to meet you!';
+
 #### 布尔运算
 
 布尔值只有`true`和`false`两种（注意大小写），三种运算符分别为`&&`（与）、`||`（或）、`!`（非）。
