@@ -36,3 +36,34 @@
 
 `null`表示空，这与其它大多数语言一致。而`undefined`表示值未定义。
 
+#### 数组
+
+数组有两种表示方式
+
+> \[1, 2, 3, 4, null, 'test', false\];
+>
+> new Arrary\(1,2,3,4\)
+
+然后它有一些奇怪的特性有别于其它编程语言。
+
+#### 对象
+
+对象在JavaScript中实际上是一种Key-Value集合，并且Key都是字符串类型，值的类型随意。
+
+> var computer = {  
+>     host = '192.168.1.101',  
+>     memory = 16,  
+>     harddisk = 2048,  
+>     monitor = 24,  
+>     cddriver = null };
+>
+> //获取对象的属性  
+> computer.host; // '192.168.1.101'  
+> computer.memory; // 16
+
+
+
+
+
+
+
