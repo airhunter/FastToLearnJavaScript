@@ -34,7 +34,5 @@
 
 #### null和undefined
 
-null表示空，这与其它大多数语言一致。而undefined表示值未定义。
-
-
+`null`表示空，这与其它大多数语言一致。而`undefined`表示值未定义。
 
