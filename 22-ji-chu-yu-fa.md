@@ -36,6 +36,12 @@
 > var LastName = 'Wong';  
 > var HelloMessage = 'Hello,${FirstName} ${LastName} , Nice to meet you!';
 
+字符串的索引号从0开始，但即使索引越界也不会引起报错，而只是返回undefined。
+
+字符串是一种不变量，但不同与Java或Python，尝试修改字符串中元素的值同样不会引起报错，只是没有任何效果而已。
+
+
+
 #### 布尔运算
 
 布尔值只有`true`和`false`两种（注意大小写），三种运算符分别为`&&`（与）、`||`（或）、`!`（非）。
