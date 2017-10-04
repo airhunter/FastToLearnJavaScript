@@ -1,1 +1,9 @@
-# FastToLearnJavaScript
+# 最快速的入门JavaScript
+
+这可能是最快速的入门手册，因为我们将假定您已经熟练掌握了至少一门其它编程语言，如C++、Java、Python。并且至少对于网络编程有初步的了解，比如凭借自身的经验已经可以读懂短小的JavaScript代码，更或者写过小段的JavaScript或者jQuery代码。所以在快速入门中，我们只会着重那些JavaScript语言与其它语言的一些差异性，对于常规语言我们将不做过多的介绍，这些相似的语法可以留待读者在书写代码时自己研究。
+
+JavaScript是在Web编程时无法绕过的技术，即使是在PC端应用程序和手机App中都会嵌入HTML5页面。而且像Node.js框架更是把JavaScript引入到了服务器端。不管你是出于什么原因需要学习JavaScript，想必您已经发现了他在Web领域中的位置。即然无法躲开，就勇敢的拥抱它吧。
+
+  
+
+
