@@ -78,15 +78,22 @@
 对象在JavaScript中实际上是一种Key-Value集合，并且Key都是字符串类型，值的类型随意。
 
 > var computer = {  
->     host = '192.168.1.101',  
->     memory = 16,  
->     harddisk = 2048,  
->     monitor = 24,  
->     cddriver = null };
+>     host : '192.168.1.101',  
+>     memory : 16,  
+>     harddisk : 2048,  
+>     monitor : 24,  
+>     cddriver : null };
 >
 > //获取对象的属性  
 > computer.host; // '192.168.1.101'  
 > computer.memory; // 16
+
+如果Key包含特殊字符，就需要用`''或""`引号括起来，并且在访问时必须用`['abc']`的方式来访问。
+
+> var computer = {  
+>     'host-name' : '192.168.100.101' };
+>
+> console.log\(computer\['host-name'\]\);
 
 #### 变量
 
