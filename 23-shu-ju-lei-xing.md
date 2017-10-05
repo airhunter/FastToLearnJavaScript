@@ -12,7 +12,7 @@
 
 {% raw %}
 
-`Let's rename \*our-new-project\* to \*our-old-project\*.`
+\`Let's rename \*our-new-project\* to \*our-old-project\*.\`
 
 {% endraw %}
 
