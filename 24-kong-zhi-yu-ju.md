@@ -15,6 +15,26 @@
 
 # 循环语句
 
+`for`循环支持两种方式，普通的`for`以及`for...in`形式。
+
+> var x = 0;
+>
+> for \(var i = 1; i &lt; 10; i++\){  
+>        x = x + i;  
+> };
+>
+> console.log\(x\);
+
+> var arr = \[1,2,3,4,5,6,7\];
+>
+> for \(var i in arr\){  
+>      console.log\(i\);  
+> }
+
+`for...in`形式中可以用在所有的容器类型中，像对象、数组都可以。
+
+
+
 
 
 
