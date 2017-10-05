@@ -37,7 +37,24 @@
 
 #### while和do...while
 
-语法与C++、Java一致，无变化
+语法与C++、Java一致，无变化。
+
+> var x = 1;  
+> var sum = 0;
+>
+> while\(x &lt; 100\){  
+>     sum += x;  
+> }
+>
+> console.log\(sum\);
+
+> var x = 1;  
+> var sum = 0;  
+> do{  
+>      sum += x;  
+> }while\(x &lt; 100\);
+>
+> console.log\(sum\);
 
 
 
