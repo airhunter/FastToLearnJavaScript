@@ -10,6 +10,7 @@
 * [3. 进阶语法](/3-Advanced_Syntax.md)
   * [3.1 字符串内置方法](/31-String.md)
   * [3.2 数组内置方法](/32-Array.md)
+  * [3.3 对象内置方法](/33-Object.md)
 
 
 
