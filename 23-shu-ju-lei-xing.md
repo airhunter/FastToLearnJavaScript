@@ -8,7 +8,7 @@
 
 > var FirstName = 'Smith';  
 > var LastName = 'Wong';  
-> var HelloMessage = `Hello,${FirstName} ${LastName} , Nice to meet you!`;
+> var HelloMessage = {% raw %}\`Hello,${FirstName} ${LastName} , Nice to meet you!\`{% endraw %};
 
 {% raw %}
 
