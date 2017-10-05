@@ -37,7 +37,7 @@
 
 #### while和do...while
 
-
+语法与C++、Java一致，无变化
 
 
 
