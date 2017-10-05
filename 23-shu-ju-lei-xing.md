@@ -12,7 +12,7 @@
 
 {% raw %}
 
-   this will {{ not be processed }}
+   this will ```````
 
 {% endraw %}
 
