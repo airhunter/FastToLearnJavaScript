@@ -10,12 +10,6 @@
 > var LastName = 'Wong';  
 > var HelloMessage = {% raw %}\`Hello,${FirstName} ${LastName} , Nice to meet you!\`{% endraw %};
 
-{% raw %}
-
-\`Let's rename \*our-new-project\* to \*our-old-project\*.\`
-
-{% endraw %}
-
 字符串的索引号从0开始，但即使索引越界也不会引起报错，而只是返回undefined。
 
 字符串是一种不变量，但不同与Java或Python，尝试修改字符串中元素的值同样不会引起报错，只是没有任何效果而已。
