@@ -97,7 +97,7 @@
 
 访问一个不存在的属性不会报错，而是返回`undefined`
 
-但给一个不存在的属性赋值，相当于给对象添加新的属性，这个特性与大多数编程语言的`Dictionary`用法相同。
+但给一个不存在的属性赋值，相当于给对象添加新的属性，这个特性与大多数编程语言的`Dictionary`用法相同。删除一个属性可以使用`delete`
 
 > var computer = {  
 >     'host-name' : '192.168.100.101' };
@@ -105,6 +105,9 @@
 > console.log\(computer.memory\);     //undefined  
 > computer.memory = 16;  
 > console.log\(computer.memory\);    // 16
+>
+> delete computer.memory;  
+> console.log\(computer.memory\);     //undefined
 
 #### 变量
 
