@@ -4,3 +4,5 @@
 
 JavaScript是在Web编程时无法绕过的技术，即使是在PC端应用程序和手机App中都会嵌入HTML5页面。而且像Node.js框架更是把JavaScript引入到了服务器端。不管你是出于什么原因需要学习JavaScript，想必您已经发现了他在Web领域中的位置。即然无法躲开，就勇敢的拥抱它吧。
 
+关于更详细的JavaScript使用说明可以参考Mozilla提供的《[JavaScript标准库](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects)》网站
+
