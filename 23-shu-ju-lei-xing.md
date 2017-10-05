@@ -8,7 +8,9 @@
 
 > var FirstName = 'Smith';  
 > var LastName = 'Wong';  
-> var HelloMessage = {% raw %}`Hello,${FirstName} ${LastName} , Nice to meet you!`;{% endraw %}
+> var HelloMessage = {% raw %}
+`Hello,${FirstName} ${LastName} , Nice to meet you!`;
+{% endraw %}
 
 字符串的索引号从0开始，但即使索引越界也不会引起报错，而只是返回undefined。
 
