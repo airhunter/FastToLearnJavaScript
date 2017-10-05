@@ -53,7 +53,7 @@ splice\(\)添加删除元素的万能方法，并返回删除的元素。
 > var arr = \[1,2,3,4\];  
 > var news = arr.concat\(\['A', 'B'\]\);
 
-
+#### join
 
 
 
