@@ -99,6 +99,13 @@
 
 但给一个不存在的属性赋值，相当于给对象添加新的属性，这个特性与大多数编程语言的`Dictionary`用法相同。
 
+> var computer = {  
+>     'host-name' : '192.168.100.101' };
+>
+> console.log\(computer.memory\);     //undefined  
+> computer.memory = 16;  
+> console.log\(computer.memory\);    // 16
+
 #### 变量
 
 变量使用`var`声名。JavaScript是一种变量类型不固定的语言，所以可以做到b在声名时为数值，然后又赋值一个字符串给它。如例子中所展示的一样。
