@@ -13,9 +13,10 @@
   * [3.3 对象内置方法](/33-Object.md)
   * [3.4 Map和Set](/34-Map_Set.md)
   * [3.5 迭代器](/35-iterable.md)
-  * [3.6 函数](/36-function.md)
+  * [3.6 函数](/36-Function.md)
   * [3.7 作用域](/37-Scope.md)
   * [3.8 对象的方法](/38-Method.md)
+  * [3.9 map()/reduce()](/39-map_reduce.md)
 
 
 
