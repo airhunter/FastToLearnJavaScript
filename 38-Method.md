@@ -45,5 +45,20 @@ JavaScript并不是一个面向对象语言，因为他对面向对象三个特�
 > AddMemory.apply\(computer, \[16\]\);     //right, return 32  
 > AddMemory.call\(computer, 16\);          //right, return 32
 
+#### 装饰器
+
+由于JavaScript的所有对象都是动态的，即使内置的函数，我们都可以重新指向。
+
+如果我们想统计一下代码一共调用了多少次parseInt\(\), 可以自己换掉内置的parseInt方法，让我们来演试一下。
+
+> var count = 0;
+>
+> var oldParseInt = parseInt;   // save the original function
+>
+> window.parseInt = function\(\){  
+>      count += 1;  
+>      return oldParseInt.apply\(null, arguments\);  
+> };
+
 
 
