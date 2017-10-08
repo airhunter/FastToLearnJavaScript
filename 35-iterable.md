@@ -27,5 +27,15 @@ ECMAScript 2015引入了iterable类型，Array、Map和Set都属于iterable类�
 >     console.log\(x\);    // '1','2','3','4','5','ABC'  
 > }
 
+#### forEach
+
+我们还可以使用itorable的内置方法forEach方法，传入一个自定义函数即可。
+
+> var a = \[1,2,3\];
+>
+> a.forEach\(function\(elem, idx, arr\){  
+>     console.log\(elem\);  
+> }\);
+
 
 
