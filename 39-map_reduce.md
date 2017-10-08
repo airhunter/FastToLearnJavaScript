@@ -9,7 +9,13 @@
 > arr.map\(function\(x\){  
 >      return x\*x;}\);
 
+#### reduce
 
+如果需要将一个函数的结果作为下一次调用函数的入参，那么可以用reduce。
+
+> var arr = \[1,2,3,4,5,6,7,8,9,10\];
+>
+> arr.reduce\(function\(x,y\){ return x \* y;}\);
 
 
 
