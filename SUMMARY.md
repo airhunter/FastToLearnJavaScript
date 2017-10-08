@@ -16,7 +16,7 @@
   * [3.6 函数](/36-Function.md)
   * [3.7 作用域](/37-Scope.md)
   * [3.8 对象的方法](/38-Method.md)
-  * [3.9 高阶函数](/39-Higher-order_Function.md.md)
+  * [3.9 高阶函数](/39-Higher-order_Function.md)
 
 
 
