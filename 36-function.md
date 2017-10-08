@@ -28,7 +28,7 @@
 >     console.log\('a = ' + a\);  
 >     console.log\('b = ' + b\);  
 >     for \(var i in rest\){  
->         console.log\(i\);  
+>         console.log\("rest\[" + i + "\] = " + rest\[i\]\);  
 >     }  
 > }
 
