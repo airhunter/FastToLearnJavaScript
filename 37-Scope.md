@@ -38,5 +38,9 @@ JavaScript会把整个函数体中的变量声明语句提升至函数顶部，�
 >     return sum;  
 > }
 
+#### 常量
+
+旧的JavaScript不支持常量声明，在ECMAScript 2015中，引入关键字const，当用const声明变量后，此变量即为常量。
+
 
 
