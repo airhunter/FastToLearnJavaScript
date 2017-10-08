@@ -17,5 +17,9 @@ ECMAScript 2015引入了iterable类型，Array、Map和Set都属于iterable类�
 
 这里要说明一下Map在循环时，返回的是一个数组，第一元素是Key，第二个无素是Value。
 
+#### 为什么不使用for...in
+
+因为for...in循环的是对象的属性名称，
+
 
 
