@@ -14,6 +14,7 @@
   * [3.4 Map和Set](/34-Map_Set.md)
   * [3.5 迭代器](/35-iterable.md)
   * [3.6 函数](/36-function.md)
+  * [3.7 作用域](/37-Scope.md)
 
 
 
