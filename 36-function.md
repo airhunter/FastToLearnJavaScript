@@ -7,7 +7,7 @@
 >     return x;  
 > }
 
-
+如果没有指定return语句，函数也会有返回值，只是返回值是undefined.
 
 
 
