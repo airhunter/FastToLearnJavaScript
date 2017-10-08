@@ -1,4 +1,4 @@
-# itorable
+# 迭代器
 
 ECMAScript 2015引入了iterable类型，Array、Map和Set都属于iterable类型。关于itorable也不会陌生，C++、Java等许多语言都有类似的知识点。
 
