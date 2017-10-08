@@ -27,7 +27,7 @@
 > function foo\(a, b, ...rest\){  
 >     console.log\('a = ' + a\);  
 >     console.log\('b = ' + b\);  
->     for \(var i of rest\){  
+>     for \(var i in rest\){  
 >         console.log\(i\);  
 >     }  
 > }
