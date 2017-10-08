@@ -9,5 +9,14 @@
 
 如果没有指定return语句，函数也会有返回值，只是返回值是undefined.
 
+还有一种特殊的定义方法，为Javascript所特有。
+
+> var getSomething = function\(x\){  
+>     // do something  
+>     return x;  
+> };
+
+
+
 
 
