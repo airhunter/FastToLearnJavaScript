@@ -13,7 +13,7 @@
   * [3.3 对象内置方法](/33-Object.md)
   * [3.4 Map和Set](/34-Map_Set.md)
   * [3.5 iterable](/35-iterable.md)
-
+  * [3.6 function](/36-function.md)
 
 
 
