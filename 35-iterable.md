@@ -1,6 +1,6 @@
 # 迭代器
 
-ECMAScript 2015引入了`iterable`类型，Array、Map和Set都属于iterable类型。关于`itorable`也不会陌生，C++、Java等许多语言都有类似的知识点。
+ECMAScript 2015引入了`iterable`类型，Array、Map和Set都属于`iterable`类型。关于`itorable`也不会陌生，C++、Java等许多语言都有类似的知识点。
 
 区别在于，在Javascript中需要通过`for...of`循环来使用itorable特性。
 
