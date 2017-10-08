@@ -32,7 +32,7 @@ JavaScript会把整个函数体中的变量声明语句提升至函数顶部，�
 >
 > function foo\(\){  
 >     var sum = 0;  
->     for\(let i = 0; i &lt; 10; i++\){  
+>     for\(let i = 0; i &lt; 10; i++\){      // i在for循环外不存在  
 >         sum += i;  
 >     }  
 >     return sum;  
