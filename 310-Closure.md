@@ -4,5 +4,24 @@
 
 它的两大作用是：读取函数内部变量和让这些变量的值保持在内存中。（类似于C++的static关键字效果）
 
+一个用于解释闭包用途的例子：
+
+> function f1\(\){  
+>     var n = 999;  
+>     nAdd = function\(\){n+1;}  
+>     function f2\(\){  
+>         alert\(n\);  
+>     }  
+>     return f2;  
+> }
+>
+> var result = f1\(\);
+>
+> result\(\);             //999
+>
+> nAdd\(\);
+>
+> result\(\);            // 1000
+
 
 
