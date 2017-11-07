@@ -12,13 +12,13 @@ Javascript中闭包是一大难点，但又绕不过去。
 
 > function f1\(\){
 >
-> ```
-> var n = 999;
+> 
+>var n = 999;
 >
 > function f2\(\){  
 >     alert\(n\); //999  
 > }
-> ```
+> 
 >
 > }
 
