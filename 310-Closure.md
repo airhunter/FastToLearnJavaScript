@@ -25,5 +25,19 @@ Javascript中闭包是一大难点，但又绕不过去。
 　　　　}
 　　　　return f2;
 　　}
-　　var result=f1();
-　　result(); // 999
+var result=f1();
+result(); // 999
+
+这个实际上就是闭包。可以理解为它将内部函数与外部函数连接在了一起。
+>　function f1(){
+　　　　var n=999;
+　　　　nAdd=function(){n+=1}
+　　　　function f2(){
+　　　　　　alert(n);
+　　　　}
+　　　　return f2;
+　　}
+var result=f1();
+result(); // 999
+nAdd();
+result(); // 1000
