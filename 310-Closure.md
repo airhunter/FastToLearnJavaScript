@@ -13,16 +13,12 @@ Javascript中闭包是一大难点，但又绕不过去。
 >
 > function f2\(\){  
 >     alert\(n\); //999  
-> }  
+> }
 > ```
 >
 > }
 
 在上面的代码中，f1的局部变量在f2函数中实际上是可见的。这就是Javascript的“链式作用域”。即看到一个变量名时，对象会一层层向上寻找所有父对象中的这个变量。所以对于子对象而言，所有父对象的变量都是可见的，反之则不行。
-
-
-
-    var HelloMessage = {% raw %}\`Hello,${FirstName} ${LastName} , Nice to meet you!\`{% endraw %}
 
 
 
