@@ -41,3 +41,5 @@ var result=f1();
 result(); // 999
 nAdd();
 result(); // 1000
+
+result实际上就是闭包f2函数。并且我们可以发现f1一直保存着局部变量的值。
