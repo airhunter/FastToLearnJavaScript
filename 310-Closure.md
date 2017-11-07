@@ -8,15 +8,14 @@ Javascript中闭包是一大难点，但又绕不过去。
 
 不过Javascript有一种特殊的函数定义方式：
 
-function f1\(\){
-
-> ```
+>function f1\(\){
+> 
 > var n = 999;
 >
 > function f2\(\){  
 >     alert\(n\); //999  
 > }
-> ```
+> 
 >
 > }
 
