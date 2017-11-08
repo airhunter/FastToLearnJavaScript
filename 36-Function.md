@@ -52,7 +52,21 @@
 >     }  
 > }
 
+如果有多个形参情况：
 
+> //两参数情况  
+> \(x, y\) =&gt; x \* y
+>
+> //无参数:  
+> \(\) =&gt; 1000
+>
+> //可变参数  
+> \(x, y, ...lst\) =&gt; {  
+>     var sum = x + y  
+>     for \(int i = 0; i &lt; lst.length; i++\){  
+>         sum += lst\[i\];  
+>     }  
+>     return sum
 
 
 
