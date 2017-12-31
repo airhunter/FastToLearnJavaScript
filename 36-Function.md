@@ -68,5 +68,9 @@
 >     }  
 >     return sum
 
+#### 生成器（Generator\)
+
+JavaScript中的generator是借鉴了Python中的generator概念，如果对Python有相当的经验，那么理解起来会十分容易。对于没有经验的读者，可以理解为生成器是一种可以返回多次结果，并且记住中间状态的函数。
+
 
 
