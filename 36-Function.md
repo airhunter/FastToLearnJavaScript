@@ -70,7 +70,20 @@
 
 #### 生成器（Generator\)
 
-JavaScript中的generator是借鉴了Python中的generator概念，如果对Python有相当的经验，那么理解起来会十分容易。对于没有经验的读者，可以理解为生成器是一种可以返回多次结果，并且记住中间状态的函数。
+JavaScript中的generator是借鉴了Python中的generator概念，如果对Python有相当的经验，那么理解起来会十分容易。对于没有经验的读者，可以理解为生成器是一种可以返回多次结果，并且记住中间状态的函数。和普通函数的的定义不同之处是，生成器使用`functon*`来定义,并且使用yield来实现多次返回。我们使用生成经典的斐波那契数列的函数来学习生成器的使用。
 
+> function\* fib\(max\){  
+>     var a = 0, b = 1, n = 0;  
+>     while\(n &lt; max\){  
+>          yield a;  
+>          \[a, b\] = \[b, a + b\]  
+>     }  
+>     return;  
+> }
+>
+> var f = fib\(6\)  
+> f.next\(\)     //{value: 0, done:false}  
+> f.next\(\)     //{value: 1, done:false}
 
+value的值即为斐波那契数列的返回值，而done用于确定是否生成器已经到return处。
 
