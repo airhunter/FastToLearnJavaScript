@@ -18,6 +18,7 @@
   * [3.8 对象的方法](/38-Method.md)
   * [3.9 高阶函数](/39-Higher-order_Function.md)
   * [3.10 闭包](/310-Closure.md)
+* [4. 面向对象](/4-Object-based.md)
 
 
 
