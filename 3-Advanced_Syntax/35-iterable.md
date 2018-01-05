@@ -24,7 +24,7 @@ ECMAScript 2015引入了`iterable`类型，Array、Map和Set都属于`iterable`�
 > var arr = \[1,2,3,4,5\];  
 > arr.name = 'ABC';  
 > for \(var x in arr\){  
->     console.log\(x\);    // '1','2','3','4','5','ABC'  
+>     console.log\(x\);    // '0','1','2','3','4'  
 > }
 
 #### forEach
