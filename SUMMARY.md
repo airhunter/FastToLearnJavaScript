@@ -20,6 +20,8 @@
   * [3.10 闭包](/3-Advanced_Syntax/310-Closure.md)
 * [4. 面向对象](/4-Object-based/4-Object-based.md)
   * [4.1 对象的封装](/4-Object-based/41-Object_Encapsulation.md)
+  * [4.2 对象的继承](/4-Object-based/42-Object_inheritance.md)
+
 
 
 
