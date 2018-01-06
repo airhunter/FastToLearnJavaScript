@@ -48,11 +48,11 @@
 >         this.grade = grade;  
 >     }
 >
-> ```
-> myGrade\(\){  
+>
+> myGrade(){  
 >      alert\('I am at grade ' + this.grade\);  
 > }
-> ```
+> 
 >
 > }
 
