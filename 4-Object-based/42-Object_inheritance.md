@@ -34,15 +34,13 @@
 >          this.age = age;  
 >      }
 >
-> say\_hello\(\){  
+> say\_hello\(\){
 >
->       alert\('Hello, ' + this.name\);  
->
->  }
+>   alert\('Hello, ' + this.name\);  
 >
 > }
-
-
+>
+> }
 
 
 
