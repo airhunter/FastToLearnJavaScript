@@ -55,5 +55,13 @@
 
 #### Prototype模式
 
+构造函数的问题是如果对象中包括一些类属性，或者函数，每次通过构造函数生成的对象都实际上是复制一份内容。会多占用不少内容。
+
+> function Student\(name, age\){  
+>     this.name = name;  
+>     this.age = age;  
+>     this.say\_hello = function\(\){alert\('Hello'\);};  
+> }
+
 每个构造函数都有一个prototype属性，
 
