@@ -29,7 +29,7 @@
 之前采用构造函数来生成实例的方法可以被`class`来改写，更符合OOP编程的风格。
 
 > class Student{  
->      constructor\(name, age\){  
+>     constructor\(name, age\){  
 >          this.name = name;  
 >          this.age = age;  
 >      }
