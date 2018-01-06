@@ -62,6 +62,10 @@
 >     this.age = age;  
 >     this.say\_hello = function\(\){alert\('Hello' + this.name\);};  
 > }
+>
+> var student1 = new Student\('小明',24\)
+>
+> var student2 = new Student\('张三', 24\)
 
 每个构造函数都有一个prototype属性，
 
