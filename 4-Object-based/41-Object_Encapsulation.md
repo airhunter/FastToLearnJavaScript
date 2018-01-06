@@ -53,5 +53,7 @@
 >
 > alert\(student1 instanceof Student\);    // true
 
+#### Prototype模式
+
 
 
