@@ -96,7 +96,7 @@
 可用来遍历对象的所有属性，也可以用来判断某个实例是否含有某个属性。
 > alert('name' in student1) //true
 > for(var prop in student1){
->          console.log('student1[' + prop + ']=' + student1[prop]);
+>  console.log('student1[' + prop + ']=' + student1[prop]);
 > }
 
 
