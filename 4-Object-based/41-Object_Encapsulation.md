@@ -90,7 +90,7 @@
 
 **hasOwnProperty()**
 用来验证属性是否是本地属性还是继承自prototype对象。
-> alert(student1.hasOwnProperty('name')); //true
+> alert(student1.hasOwnProperty('name'));   //true
 
 **in**
 可用来遍历对象的所有属性，也可以用来判断某个实例是否含有某个属性。
