@@ -18,8 +18,8 @@
 >     Child.prototype.constructor = Child;  
 > }
 >
-> extend\(Student, GoodStudent\);  
-> var student1 = new Student\('Luck', 24\)  
+> extend\(GoodStudent, Student\);  
+> var student1 = new GoodStudent\('Luck', 24\)  
 > alert\(student1.type\);   //Good
 
 #### class继承
@@ -41,6 +41,8 @@
 > }
 
 原先复杂的继承功能也可以被extend关键词取代。
+
+> class GoodStudent{
 
 
 
