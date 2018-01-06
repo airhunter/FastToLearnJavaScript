@@ -69,5 +69,5 @@
 >
 > {% raw %} alert\(student1.say\_hello == student1.say\_hello\) // false{% rawend %}
 
-每个构造函数都有一个prototype属性，
+每个构造函数都有一个prototype属性，指向另一个对象。这个对象的所有属性和方法都会被构造函数的实例继承。
 
