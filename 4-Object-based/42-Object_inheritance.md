@@ -40,7 +40,7 @@
 >
 > }
 
-原先复杂的继承功能也可以被extends关键词取代。
+原先复杂的继承功能也可以被`extends`关键词取代。
 
 > class GoodStudent extends Student{  
 >     constructor\(name, grade\){  
@@ -48,9 +48,12 @@
 >         this.grade = grade;  
 >     }
 >
->     myGrade\(\){  
->          alert\('I am at grade ' + this.grade\);  
->     }  
+> ```
+> myGrade\(\){  
+>      alert\('I am at grade ' + this.grade\);  
+> }  
+> ```
+>
 > }
 
 
