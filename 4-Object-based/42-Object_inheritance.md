@@ -22,5 +22,24 @@
 > var student1 = new Student\('Luck', 24\)  
 > alert\(student1.type\);   //Good
 
+#### class继承
+
+在ES6之前，上述方法是Javsscript继承对象的唯一方案。但从ES6开始，`class`终于被引入Javascript。
+
+之前采用构造函数来生成实例的方法可以被`class`来改写，更符合OOP编程的风格。
+
+> class Student{  
+>      constructor\(name, age\){  
+>          this.name = name;  
+>          this.age = age;  
+>      }
+>
+>      say\_hello\(\){  
+>           alert\('Hello, ' + this.name\)  
+>      }  
+> }
+
+
+
 
 
