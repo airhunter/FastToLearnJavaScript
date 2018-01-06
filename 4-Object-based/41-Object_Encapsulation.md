@@ -82,6 +82,22 @@
 >
 > {% raw %} alert\(student1.say\_hello == student1.say\_hello\) // true{% rawend %}
 
+#### 常用函数
+
+**isPrototypeOf()**
+用来验证实例与某个prototype对象的关系
+> alert(Student.prototype.isPrototypeOf(student1))
+
+**hasOwnProperty()**
+用来验证属性是否是本地属性还是继承自prototype对象。
+> alert(student1.hasOwnProperty('name')); //true
+
+**in**
+可用来遍历对象的所有属性，也可以用来判断某个实例是否含有某个属性。
+> alert('name' in student1) //true
+> for(var prop in student1){
+>          console.log('student1[' + prop + ']=' + student1[prop]);
+> }
 
 
 
