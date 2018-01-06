@@ -30,7 +30,16 @@
 
 #### 构造函数
 
+通过构造函数生成的实例都会基于同一个原型对象，这在Javascript中称为构造函数模式。其与函数的区别在于，变量通过`this`绑定在实例对象上。并且生成实例需要使用`new`关键字。
 
+> function Student\(name, age\){  
+>     this.name = name;  
+>     this.age = age;  
+> }
+>
+> var student1 = Student\('小明',24\)
+>
+> var student2 = Student\('张三', 24\)
 
 
 
