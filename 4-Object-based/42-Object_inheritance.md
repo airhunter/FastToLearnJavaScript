@@ -35,7 +35,7 @@
 >      }
 >
 > 
->      say\_hello\(\){  
+>  say\_hello\(\){  
 >           alert\('Hello, ' + this.name\)  
 >      }
 > 
