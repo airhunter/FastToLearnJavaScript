@@ -55,7 +55,5 @@
 
 #### Prototype模式
 
-
-
-
+每个构造函数都有一个prototype属性，
 
