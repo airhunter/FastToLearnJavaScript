@@ -41,5 +41,13 @@
 >
 > var student2 = Student\('张三', 24\)
 
+这时的student1与student2都会含有一个constructor属性，指向它们的构造函数。
+
+> alert\(student1.constructor == Student\);    // true
+>
+> alert\(student2.constructor == Student\);    // true
+
+
+
 
 
