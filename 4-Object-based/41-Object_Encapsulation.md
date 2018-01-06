@@ -70,4 +70,19 @@
 > {% raw %} alert\(student1.say\_hello == student1.say\_hello\) // false{% rawend %}
 
 每个构造函数都有一个prototype属性，指向另一个对象。这个对象的所有属性和方法都会被构造函数的实例继承。所以我们可以把希望每个实例都不会变更的属性或方法定义在prototype对象上。
+> function Student\(name, age\){  
+>     this.name = name;  
+>     this.age = age;  
+> }
+> Student.prototype.say\_hello = function\(\){alert\('Hello' + this.name\);}; 
+>
+> var student1 = new Student\('小明',24\)
+>
+> var student2 = new Student\('张三', 24\)
+>
+> {% raw %} alert\(student1.say\_hello == student1.say\_hello\) // true{% rawend %}
+
+
+
+
 
