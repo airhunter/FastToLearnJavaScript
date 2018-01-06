@@ -20,7 +20,7 @@
 >
 > extend\(GoodStudent, Student\);  
 > var student1 = new GoodStudent\('Luck', 24\)  
-> alert\(student1.type\);   //Good
+> alert\(student1.type\);     //Good
 
 #### class继承
 
