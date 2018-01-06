@@ -37,9 +37,9 @@
 >     this.age = age;  
 > }
 >
-> var student1 = Student\('小明',24\)
+> var student1 = new Student\('小明',24\)
 >
-> var student2 = Student\('张三', 24\)
+> var student2 = new Student\('张三', 24\)
 
 这时的student1与student2都会含有一个constructor属性，指向它们的构造函数。
 
@@ -60,7 +60,7 @@
 > function Student\(name, age\){  
 >     this.name = name;  
 >     this.age = age;  
->     this.say\_hello = function\(\){alert\('Hello'\);};  
+>     this.say\_hello = function\(\){alert\('Hello' + this.name\);};  
 > }
 
 每个构造函数都有一个prototype属性，
