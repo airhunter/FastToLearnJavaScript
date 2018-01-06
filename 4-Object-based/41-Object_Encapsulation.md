@@ -47,7 +47,11 @@
 >
 > alert\(student2.constructor == Student\);    // true
 
+通过instanceof运算符可以验证原型与实例之间的关系。
 
+> alert\(student1 instanceof Student\);
+>
+> alert\(student1 instanceof Student\);
 
 
 
