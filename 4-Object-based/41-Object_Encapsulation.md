@@ -67,7 +67,7 @@
 >
 > var student2 = new Student\('张三', 24\)
 >
-> {% raw %} alert\(student1.say\_hello == student1.say\_hello\) {% rawend %}
+> {% raw %} alert\(student1.say\_hello == student1.say\_hello\) // false{% rawend %}
 
 每个构造函数都有一个prototype属性，
 
