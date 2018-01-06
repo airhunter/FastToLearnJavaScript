@@ -40,9 +40,18 @@
 >
 > }
 
-原先复杂的继承功能也可以被extend关键词取代。
+原先复杂的继承功能也可以被extends关键词取代。
 
-> class GoodStudent{
+> class GoodStudent extends Student{  
+>     constructor\(name, grade\){  
+>         super\(name\);  
+>         this.grade = grade;  
+>     }
+>
+>     myGrade\(\){  
+>          alert\('I am at grade ' + this.grade\);  
+>     }  
+> }
 
 
 
